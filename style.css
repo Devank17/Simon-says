@@ -1,0 +1,54 @@
+h1,
+h3 {
+  text-align: center;
+}
+
+.box {
+  border: 5px solid black;
+  width: 100px;
+  height: 100px;
+  margin: 7px;
+  border-radius: 15px;
+}
+
+.mainBox {
+  display: flex;
+  /* border: 2px solid black; */
+  width: 270px;
+  height: 200px;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.red {
+  background-color: rgb(202, 69, 35);
+}
+.green {
+  background-color: rgb(28, 167, 51);
+}
+.orange {
+  background-color: rgb(230, 127, 32);
+}
+.blue {
+  background-color: rgb(63, 63, 214);
+}
+
+.gameFlash {
+  background-color: white;
+}
+
+.userFlash{
+background-color: rgb(0, 0, 0);
+}
+
+#high{
+  color: blueviolet;
+  font-weight: bolder;
+}
+
+#inpHigh{
+  width: 50px;
+  border: none;
+}
